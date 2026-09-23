@@ -10,63 +10,44 @@
 <title>TI-84 Graphing Calculator</title>
 
 <style>
-
-html,body{
-
-margin:0;
-height:100%;
-overflow:hidden;
-background:white;
-
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 580px;
+    overflow: hidden;
+    background: white;
 }
 
-.wrapper{
-
-position:relative;
-width:100%;
-height:100vh;
-overflow:hidden;
-
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 580px;
+    overflow: hidden;
+    background: white;
 }
 
-iframe{
-
-position:absolute;
-
-top:-450px;
-
-left:50%;
-
-width:1180px;
-
-height:1250px;
-
-border:0;
-
-transform:translateX(-50%);
-
+iframe {
+    position: absolute;
+    top: -525px;
+    left: 50%;
+    width: 1180px;
+    height: 1445px;
+    border: 0;
+    transform: translateX(-50%) scale(1.5);
+    transform-origin: top center;
 }
-
 </style>
-
 </head>
 
 <body>
-
 <div class="wrapper">
-
-<iframe
-
-src="https://ti84calculator.io"
-
-allowfullscreen
-
-loading="eager">
-
-</iframe>
-
+    <iframe
+        src="https://ti84calculator.io"
+        allowfullscreen
+        loading="eager"
+        scrolling="no">
+    </iframe>
 </div>
-
 </body>
-
 </html>
